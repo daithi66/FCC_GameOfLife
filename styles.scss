@@ -1,0 +1,68 @@
+body {
+    font-size: 14px;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:   #800000;
+    background-image:   -moz-radial-gradient(center, ellipse cover, #b30000 0%, #4d0000 100%);
+    background-image:   -webkit-radial-gradient(center, ellipse cover, #b30000 0%, #4d0000 100%);
+    background-image:   -o-radial-gradient(center, ellipse cover, #b30000 0%, #4d0000 100%);
+    background-image:   -ms-radial-gradient(center, ellipse cover, #b30000 0%, #4d0000 100%);
+    background-image:   radial-gradient(center, ellipse cover, #b30000 0%, #4d0000 100%);
+  }
+  html {
+    min-height: 100%;
+  }
+  button {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  h1 {
+    margin-top: 0;
+    padding-left: 10px;
+    background-color: #555;
+    color: #EEE;
+  }
+  #sig {
+    float: right;
+    color: #EEE;
+    font-size: 1.2em;
+    margin: 5px;
+  }
+  #board {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #555;
+  }
+  #control {
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #555;
+    color: #EEE;
+    clear: both;
+  }
+  #generation {
+    margin-top: 12px;
+    margin-right: 12px;
+    float: right;
+    font-size: 1.2em;
+  }
+  .square {
+    border: 1px solid #555;
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    float: left;
+  }
+  .clear {
+    clear: left;
+  }
+  .alive {
+    background-color: #cc0000;
+  }
+  .dead {
+    background-color: black;
+  }
